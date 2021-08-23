@@ -15,7 +15,7 @@ input_nums = []
 c=0
 inv=[]
 for i in input_nums:
-    if(type(i)!=int):
+    if(type(i)!=type(3)):
         c+=1
         inv.append(i)
 if c!=0:
